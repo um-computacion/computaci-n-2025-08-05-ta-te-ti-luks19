@@ -10,4 +10,4 @@ def test_creacion_jugador_valido():
 def test_jugador_simbolo_invalido():
     """Valida que el símbolo debe ser 'X' u 'O'"""
     with pytest.raises(ValueError):
-        Jugador(nombre="Ana", simbolo="Z")  
+        Jugador(nombre="Ana", simbolo="Z")

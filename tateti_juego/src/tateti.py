@@ -40,4 +40,4 @@ class Tateti:
             return False
 
         except (ValueError, IndexError):
-            return None
+            return None     
